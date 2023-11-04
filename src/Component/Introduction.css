@@ -1,0 +1,11 @@
+.intoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bgc {
+    background: rgba(0, 0, 0, 0.6);
+  }
