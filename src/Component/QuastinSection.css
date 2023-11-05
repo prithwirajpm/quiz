@@ -8,3 +8,30 @@
   .btnbgc {
     background: rgba(255, 254, 254, 0.6);
   }
+  .btnbgc:focus{
+    background: rgba(255, 254, 254, 0.6);
+  }
+  .btnRed {
+    background: rgba(252, 61, 61, 0.6) !important;
+  }
+  .btnGreen {
+    background: rgba(111, 254, 111, 0.6) !important;
+  }
+
+  .btnDanger{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+              radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  /* Other CSS properties for your element */
+  color: #fff; /* Set the text color */
+ /* Add padding or other styles as needed */
+  /* Add more styles as necessary */
+  }
+
+
+
+  .platinum {
+    background:linear-gradient( to bottom, #d5d7e5, #eee, #d5d7e5);
+  }
+
+  
+  

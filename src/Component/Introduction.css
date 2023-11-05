@@ -9,7 +9,37 @@
 .bgc {
     background: rgba(0, 0, 0, 0.6);
   }
-
+.bgImgScr{
+  background-image: url('../Assets/gotendscore.png');
+  width: 617px;
+  height: 404px;
+}
   .boxWithShadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+
+  @font-face {
+    font-family: "Game of Thrones";
+    src: url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot");
+    src: url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.svg#Game of Thrones")format("svg");
+}
+
+.my-element {
+  font-family: "Game of Thrones", Arial, sans-serif;
+}
+
+
+.textColor {
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+              radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  /* Other CSS properties for your element */
+  color: #fff; /* Set the text color */
+ /* Add padding or other styles as needed */
+  /* Add more styles as necessary */
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+}
