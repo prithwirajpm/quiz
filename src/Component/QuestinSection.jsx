@@ -181,7 +181,7 @@ function QuestinSection() {
 
           <div>
             {questions[currentIndex] && (
-              <div className="Secbgc p-5 shadow-lg" style={{ width: '750px',height:'651px' }}>
+              <div className="Secbgc p-5 shadow-lg" style={{ width: '750px'}}>
                 <div className="d-flex justify-content-between align-items-center">
                   <h3 className="text-white">Qn: {currentIndex + 1}</h3>
                   <h3 className="text-white">Score: {point}</h3>
@@ -197,7 +197,7 @@ function QuestinSection() {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-md-12 col-lg-6">
                     <input
                       id='btn_a'
                       type="button"
@@ -208,7 +208,7 @@ function QuestinSection() {
                     // onClick={() => { questions[currentIndex].ans === questions[currentIndex].a ? incrementPoint() : decrementPoint() }}
                     />
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-12 col-lg-6">
                     <input
                       type="button"
                       className={`form-control w-100 m-2 ${btnColors[1]}`}
@@ -218,7 +218,7 @@ function QuestinSection() {
                     // onClick={() => { questions[currentIndex].ans === questions[currentIndex].b ? incrementPoint(this) : decrementPoint() }}
                     />
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-12 col-lg-6">
                     <input
                       type="button"
                       className={`form-control w-100 m-2 ${btnColors[2]}`}
@@ -229,7 +229,7 @@ function QuestinSection() {
                     // onClick={() => { questions[currentIndex].ans === questions[currentIndex].c ? incrementPoint() : decrementPoint() }}
                     />
                   </div>
-                  <div className="col-6">
+                  <div className="col-md-12 col-lg-6">
                     <input
                       type="button"
                       className={`form-control w-100 m-2 ${btnColors[3]}`}
@@ -240,7 +240,7 @@ function QuestinSection() {
                     />
                   </div>
                 </div>
-                <div className="row justify-content-end mt-5">
+                <div className="row justify-content-end pt-4 pb-4">
                   <input type="submit" className="btn platinum w-25" onClick={() => { { currentIndex == questions.length - 1 ? finalPoint() : showNextItem() } }} value="Skip" />
 
                 </div>
