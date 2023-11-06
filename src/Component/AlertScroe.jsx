@@ -9,7 +9,7 @@ function AlertScroe({point}) {
             <h1 className='my-element textColor' style={{color:'gold'}}>GAME OVER</h1>
             <h1 className='my-element textColor' style={{color:'gold'}}>SCORE : <span style={{fontSize:'55px'}}>{point}</span></h1>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection:'column'}}><button className=' btn btnDanger' onClick={()=>window.location.reload()}>Start Game</button></div>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',flexDirection:'column'}}><button className=' btn btnDanger' onClick={()=>window.location.reload()}>Play Again</button></div>
         </div>
     )
 }
